@@ -1,0 +1,29 @@
+# Book settings
+title: "Game Theory with Python"
+author: "Vincent Knight"
+logo: "./img/cover/main.png"
+parse:
+  myst_extended_syntax: true
+
+exclude_patterns: ["*.bcp.ipynb", "**/*.bcp.ipynb", "**/README.md"]
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+repository:
+  url                       : https://github.com/drvinceknight/gtp
+  path_to_book              : book
+  branch                    : main
+
+html:
+  favicon: "./img/favicon/favicon.ico"
+  google_analytics_id: UA-38016329-2
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
+# Use utterance as a way to add comments via github issues to the book.
+# https://jupyterbook.org/interactive/comments.html
+  comments:
+    utterances:
+      repo: "drvinceknight/gtp"

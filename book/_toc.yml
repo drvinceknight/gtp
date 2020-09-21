@@ -1,0 +1,25 @@
+- file: cover
+- part: Overview
+  chapters:
+  - file: overview/introduction/main
+    sections:
+    - file: overview/structure/main
+    - file: overview/how_to_use_this_book/main
+- part: Game Theory
+  chapters:
+  - file: game-theory/01-normal-form-games/introduction/main
+    sections:
+    - file: game-theory/01-normal-form-games/tutorial/main
+    - file: game-theory/01-normal-form-games/how/main
+    - file: game-theory/01-normal-form-games/exercises/main
+    - file: game-theory/01-normal-form-games/solutions/main
+    - file: game-theory/01-normal-form-games/why/main
+  - file: zbibliography  # This file is named zbibliography to ensure it is compiled last. See: https://jupyterbook.org/content/citations.html#citations-and-bibliographies
+- part: About this book
+  chapters:
+  - file: about-this-book/main
+    sections:
+    - file: about-this-book/how-is-this-book-written/main
+    - file: about-this-book/contributing/main
+    - file: about-this-book/citing-this-book/main
+    - file: about-this-book/software-packages-used/main

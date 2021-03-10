@@ -14,6 +14,24 @@
     - file: game-theory/01-normal-form-games/exercises/main
     - file: game-theory/01-normal-form-games/solutions/main
     - file: game-theory/01-normal-form-games/why/main
+  - file: game-theory/02-utility-calculations/introduction/main
+  - file: game-theory/03-rationalisation/introduction/main
+  - file: game-theory/04-nash-equilibria/introduction/main
+  - file: game-theory/05-support-enumeration/introduction/main
+  - file: game-theory/06-vertex-enumeration/introduction/main
+  - file: game-theory/07-lemke-howson-algorithm/introduction/main
+  - file: game-theory/08-extensive-form-games/introduction/main
+  - file: game-theory/09-repeated-games/introduction/main
+  - file: game-theory/10-the-prisoners-dilemma/introduction/main
+  - file: game-theory/11-fictitious-play/introduction/main
+  - file: game-theory/12-stochastic-fictitious-play/introduction/main
+  - file: game-theory/13-replicator-dynamics/introduction/main
+  - file: game-theory/14-moran-processes/introduction/main
+  - file: game-theory/15-stable-marriage-game/introduction/main
+  - file: game-theory/16-hospital-resident-game/introduction/main
+  - file: game-theory/17-student-allocation-game/introduction/main
+  - file: game-theory/18-cooperative-game-theory/introduction/main
+  - file: game-theory/19-routing-games/introduction/main
   - file: zbibliography  # This file is named zbibliography to ensure it is compiled last. See: https://jupyterbook.org/content/citations.html#citations-and-bibliographies
 - part: About this book
   chapters:
